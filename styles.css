@@ -67,4 +67,31 @@ html {
     margin: 40px 40px;
 }
 
-/* -----Our Mission----- */
+/* -----Tea of The Month----- */
+
+#tea-of-the-month {
+
+    width: 1000px;
+  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tea-of-the-month img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-month-header {
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.section-container-totm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
