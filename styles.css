@@ -74,6 +74,7 @@ html {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
 
 #tea-of-the-month img {
@@ -108,3 +109,38 @@ html {
 }
 
 /* -----Locations----- */
+
+
+
+#locations {
+    display: flex;
+    flex-flow:column;
+    background-image: url(./images/img-locations-background.jpeg);
+    background-repeat: no-repeat;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 100px auto;
+
+}
+
+#locations h4 {
+    font-size: 15px;
+}
+
+.text-field-location {
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px 0;
+}
+
+.text-field-location-container {
+    display: flex;
+    gap: 40px;
+    line-height: 40px;
+    
+
+}
